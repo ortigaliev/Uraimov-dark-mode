@@ -1,6 +1,8 @@
 /* Custom Prop */
 :root{
-  
+--text-color: #222;
+--bg-color: #fff;
+--title-color: #d23669;
 }
 
 /* GLOBAL STYLES */
@@ -35,18 +37,65 @@ img{
   height: auto;
 }
 
+a{
+  color: var(--title-color);
+}
+
 
 /* CONTAINER*/
 .container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 700px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* MAIN CONTENT */
-.main-content{
-  flex-grow: 1;
+
+/* SITE HEADER */
+.site-header {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.site-logo {
+  font-size: 43px;
+  line-height: 16px;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.site-logo-link {
+  font-size: 36px;
+  color: var(--text-color);
+  margin-right: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.light-mode {
+  margin-right: 5px;
+}
+.dark-mode {
+}
+
+
+/* SITE MAIN */
+.site-main {
+}
+.blog-list {
+  list-style: none;
+  text-decoration: none;
+
+}
+.blog-item {
+  t
+}
+.vlog-paper-title {
+}
+.vlog-paper-title-link {
+}
+.vlog-paper-text {
 }
